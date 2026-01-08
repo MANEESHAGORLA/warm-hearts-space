@@ -1,0 +1,29 @@
+import AnnouncementBar from "@/components/AnnouncementBar";
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import FeaturedProducts from "@/components/FeaturedProducts";
+import VideoShowcase from "@/components/VideoShowcase";
+import CollectionGrid from "@/components/CollectionGrid";
+import FeatureSection from "@/components/FeatureSection";
+import NewsletterSection from "@/components/NewsletterSection";
+import Footer from "@/components/Footer";
+
+const Home = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <AnnouncementBar />
+      <Header />
+      <main>
+        <HeroSection />
+        <FeaturedProducts />
+        <VideoShowcase />
+        <CollectionGrid />
+        <FeatureSection />
+        <NewsletterSection />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
