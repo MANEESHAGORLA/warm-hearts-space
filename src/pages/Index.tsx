@@ -1,12 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import AnnouncementBar from "@/components/AnnouncementBar";
+import Header from "@/components/Header";
+import ProductGallery from "@/components/ProductGallery";
+import ProductDetails from "@/components/ProductDetails";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <AnnouncementBar />
+      <Header />
+      
+      <main className="container mx-auto px-4 py-8 lg:py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+          {/* Left: Gallery */}
+          <div>
+            <ProductGallery />
+          </div>
+          
+          {/* Right: Product Details */}
+          <div>
+            <ProductDetails />
+          </div>
+        </div>
+      </main>
+
+      <Footer />
     </div>
   );
 };
