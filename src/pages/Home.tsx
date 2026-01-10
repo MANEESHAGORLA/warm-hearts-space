@@ -1,6 +1,7 @@
 import AnnouncementBar from "@/components/AnnouncementBar";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import ProductVideoShowcase from "@/components/ProductVideoShowcase";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import VideoShowcase from "@/components/VideoShowcase";
 import CollectionGrid from "@/components/CollectionGrid";
@@ -15,6 +16,7 @@ const Home = () => {
       <Header />
       <main>
         <HeroSection />
+        <ProductVideoShowcase />
         <FeaturedProducts />
         <VideoShowcase />
         <CollectionGrid />
