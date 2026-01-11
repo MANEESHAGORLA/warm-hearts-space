@@ -2,11 +2,19 @@ import daisyVideo from "@/assets/product-daisy-video.mp4";
 import teardropVideo from "@/assets/product-teardrop-video.mp4";
 import moonVideo from "@/assets/product-moon-video.mp4";
 import cascadeVideo from "@/assets/product-cascade-video.mp4";
+import lavenderVideo from "@/assets/product-lavender-video.mp4";
+import forgetmenotVideo from "@/assets/product-forgetmenot-video.mp4";
+import fernVideo from "@/assets/product-fern-video.mp4";
+import sunflowerVideo from "@/assets/product-sunflower-video.mp4";
 
 import thumbDaisy from "@/assets/thumb-daisy.jpg";
 import thumbTeardrop from "@/assets/thumb-teardrop.jpg";
 import thumbMoon from "@/assets/thumb-moon.jpg";
 import thumbCascade from "@/assets/thumb-cascade.jpg";
+import thumbLavender from "@/assets/thumb-lavender.jpg";
+import thumbForgetmenot from "@/assets/thumb-forgetmenot.jpg";
+import thumbFern from "@/assets/thumb-fern.jpg";
+import thumbSunflower from "@/assets/thumb-sunflower.jpg";
 
 import {
   Carousel,
@@ -49,27 +57,27 @@ const products: Product[] = [
     price: "₹1,599",
   },
   {
-    video: daisyVideo,
-    thumbnail: thumbDaisy,
-    name: "Golden Petals",
+    video: lavenderVideo,
+    thumbnail: thumbLavender,
+    name: "Lavender Dreams",
     price: "₹1,299",
   },
   {
-    video: teardropVideo,
-    thumbnail: thumbTeardrop,
-    name: "Ocean Whisper",
+    video: forgetmenotVideo,
+    thumbnail: thumbForgetmenot,
+    name: "Forget-Me-Not Pendant",
     price: "₹899",
   },
   {
-    video: moonVideo,
-    thumbnail: thumbMoon,
-    name: "Starlight Dreams",
+    video: fernVideo,
+    thumbnail: thumbFern,
+    name: "Forest Fern Ring",
     price: "₹1,199",
   },
   {
-    video: cascadeVideo,
-    thumbnail: thumbCascade,
-    name: "Forest Dew",
+    video: sunflowerVideo,
+    thumbnail: thumbSunflower,
+    name: "Sunflower Bracelet",
     price: "₹1,499",
   },
 ];
