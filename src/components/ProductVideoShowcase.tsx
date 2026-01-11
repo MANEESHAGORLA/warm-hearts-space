@@ -6,6 +6,10 @@ import lavenderVideo from "@/assets/product-lavender-video.mp4";
 import forgetmenotVideo from "@/assets/product-forgetmenot-video.mp4";
 import fernVideo from "@/assets/product-fern-video.mp4";
 import sunflowerVideo from "@/assets/product-sunflower-video.mp4";
+import roseVideo from "@/assets/product-rose-video.mp4";
+import dandelionVideo from "@/assets/product-dandelion-video.mp4";
+import sakuraVideo from "@/assets/product-sakura-video.mp4";
+import mossVideo from "@/assets/product-moss-video.mp4";
 
 import thumbDaisy from "@/assets/thumb-daisy.jpg";
 import thumbTeardrop from "@/assets/thumb-teardrop.jpg";
@@ -15,6 +19,10 @@ import thumbLavender from "@/assets/thumb-lavender.jpg";
 import thumbForgetmenot from "@/assets/thumb-forgetmenot.jpg";
 import thumbFern from "@/assets/thumb-fern.jpg";
 import thumbSunflower from "@/assets/thumb-sunflower.jpg";
+import thumbRose from "@/assets/thumb-rose.jpg";
+import thumbDandelion from "@/assets/thumb-dandelion.jpg";
+import thumbSakura from "@/assets/thumb-sakura.jpg";
+import thumbMoss from "@/assets/thumb-moss.jpg";
 
 import {
   Carousel,
@@ -79,6 +87,30 @@ const products: Product[] = [
     thumbnail: thumbSunflower,
     name: "Sunflower Bracelet",
     price: "₹1,499",
+  },
+  {
+    video: roseVideo,
+    thumbnail: thumbRose,
+    name: "Rose Petal Drops",
+    price: "₹1,399",
+  },
+  {
+    video: dandelionVideo,
+    thumbnail: thumbDandelion,
+    name: "Dandelion Wishes",
+    price: "₹1,249",
+  },
+  {
+    video: sakuraVideo,
+    thumbnail: thumbSakura,
+    name: "Cherry Blossom Earrings",
+    price: "₹1,149",
+  },
+  {
+    video: mossVideo,
+    thumbnail: thumbMoss,
+    name: "Moss Terrarium Ring",
+    price: "₹1,699",
   },
 ];
 
