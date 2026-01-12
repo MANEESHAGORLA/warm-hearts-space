@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import ProductVideoShowcase from "@/components/ProductVideoShowcase";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import VideoShowcase from "@/components/VideoShowcase";
+import FloralConstellation from "@/components/FloralConstellation";
 import CollectionGrid from "@/components/CollectionGrid";
 import FeatureSection from "@/components/FeatureSection";
 import NewsletterSection from "@/components/NewsletterSection";
@@ -19,6 +20,7 @@ const Home = () => {
         <ProductVideoShowcase />
         <FeaturedProducts />
         <VideoShowcase />
+        <FloralConstellation />
         <CollectionGrid />
         <FeatureSection />
         <NewsletterSection />
