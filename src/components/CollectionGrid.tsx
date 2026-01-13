@@ -20,7 +20,10 @@ const CollectionGrid = () => {
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
             A Bit of Forest You Can Wear!
           </h2>
-          <div className="w-24 h-px bg-gold mx-auto" />
+          <div className="w-24 h-px bg-gold mx-auto mb-6" />
+          <p className="text-lg md:text-xl text-muted-foreground font-medium tracking-wide uppercase">
+            Shop by Collection
+          </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
