@@ -24,6 +24,17 @@ const Home = () => {
         <WishCraftCollection />
         <FloralConstellation />
         <CollectionGrid />
+        
+        {/* Collections Heading */}
+        <section className="py-16 lg:py-20 bg-background">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
+              Collections
+            </h2>
+            <div className="w-24 h-px bg-gold mx-auto" />
+          </div>
+        </section>
+        
         <FeatureSection />
         <NewsletterSection />
       </main>
