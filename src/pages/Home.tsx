@@ -7,6 +7,7 @@ import VideoShowcase from "@/components/VideoShowcase";
 import WishCraftCollection from "@/components/WishCraftCollection";
 import FloralConstellation from "@/components/FloralConstellation";
 import CollectionGrid from "@/components/CollectionGrid";
+import ThemedCollections from "@/components/ThemedCollections";
 import FeatureSection from "@/components/FeatureSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import Footer from "@/components/Footer";
@@ -24,17 +25,7 @@ const Home = () => {
         <WishCraftCollection />
         <FloralConstellation />
         <CollectionGrid />
-        
-        {/* Collections Heading */}
-        <section className="py-16 lg:py-20 bg-background">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
-              Collections
-            </h2>
-            <div className="w-24 h-px bg-gold mx-auto" />
-          </div>
-        </section>
-        
+        <ThemedCollections />
         <FeatureSection />
         <NewsletterSection />
       </main>
